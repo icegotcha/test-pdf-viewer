@@ -10,12 +10,16 @@
     "format": "prettier --write src/**/*.{ts,tsx,json}"
   },
   "dependencies": {
+    "@react-pdf/renderer": "^3.4.4",
+    "next": "14.2.5",
+    "pdfjs-dist": "^4.4.168",
+    "prettier": "^3.3.3",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.5"
+    "react-pdf": "^9.1.0",
+    "styled-components": "^6.1.12"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
@@ -23,5 +27,8 @@
     "eslint-config-next": "14.2.5",
     "tslint-config-prettier": "^1.18.0",
     "typescript": "^5"
+  },
+  "resolutions": {
+    "styled-components": "^6"
   }
 }
